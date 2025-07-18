@@ -23,7 +23,7 @@ client.on('ready', () => {
   const cronExp = `0 ${hour} * * *`;
 
   const chatId = process.env.TARGET_NUMBER + '@c.us';
-  client.sendMessage(chatId, process.env.MESSAGE)
+  client.sendMessage(chatId, "Eto")
 
   cron.schedule(cronExp, () => {
     const chatId = process.env.TARGET_NUMBER + '@c.us';
